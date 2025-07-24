@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:image" : "docker build -t crypto-track-web:ver1 .",
+    "start:temp:image": "docker run --rm --name crypto-web -p 3000:3000 crypto-track-web:ver1"
   },
   "dependencies": {
     "react": "^19.1.0",
