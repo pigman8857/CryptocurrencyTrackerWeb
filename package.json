@@ -14,9 +14,10 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
+    "@fontsource/roboto": "^5.2.6",
     "@mui/material": "^7.2.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
@@ -31,7 +32,7 @@
     "typescript-eslint": "^8.35.1",
     "vite": "^7.0.4"
   },
-   "peerDependencies": {
+  "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
     "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
   }
