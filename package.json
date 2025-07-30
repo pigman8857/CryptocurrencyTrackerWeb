@@ -8,8 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build:image": "docker build -t crypto-track-web:ver1 .",
-    "start:temp:image": "docker run --rm --name crypto-web -p 3000:3000 crypto-track-web:ver1"
+    "build:dev:image": "docker build -t crypto-track-web:dev .",
+    "start:dev:image": "docker run --rm --name crypto-web --env NODE_ENV=development -p 3000:3000 --network crypto_net crypto-track-web:dev"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
